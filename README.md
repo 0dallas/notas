@@ -1,6 +1,6 @@
 # notas
+Creo que has captado el problema: actualmente, los registros (logs) que se envían a Dynatrace desde distintas funciones Lambda y otros servicios no llegan como deberían; a veces, simplemente no llegan. Por lo que entiendo, necesitan centralizar todo en un único lugar donde los registros estén unificados; esa es la razón por la que quieren enviarlos a Dynatrace.
 
+Básicamente, tenemos que revisar la llamada, los registros dinámicos y todo lo que se está enviando; asegurarnos de que efectivamente se esté enviando y, además, verificar el formato y demás, teniendo en cuenta los comentarios de esta persona —¿cómo se llamaba? ¿Tao? ¿Tao qué?—. Sí, básicamente eso.
 
-- why is necessar yvalidate the activity_id
-- , then we are blocking it.Umm regardless or if they have comma we are blocking it regardless.but the reason is that sometimes when they do the activity they have the number OK this is activity 2.1 this is activity 2.2 this is activity 2.3 and i have seen those kind of activities and my question is are we going to block those activities at this point or uh it's something different
-- project sector. So a project can have multiple sector. So my question is that what are we doing if the one project has water, uh.Health and maybe transportation and one project has like the activity that other project has as water and.Maybe education only?Are we considering that as a match?
+A ver... Bueno, básicamente tú ya sabes lo que hay que hacer. ¿Podemos avanzar? No. ¿Existe alguna dependencia con el otro equipo? Por ahora, sí. Te estoy dando una visión general de lo que es necesario hacer, pero para concretar, él tendrá que coordinarse con el otro equipo, y nosotros también debemos comunicarnos con nuestro equipo para verificar todo lo que he comentado, además de revisar los datos que se han enviado y todo lo demás.
